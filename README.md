@@ -136,3 +136,23 @@ Register → Login → Get Jobs → Apply for Job → My Applications
 `.env.example` is included as a reference for the required environment variables.
 
 The actual `.env` file is not included in the repository.
+
+## Testing
+
+The APIs were tested using Postman.
+
+The following cases were tested:
+
+- Register with valid details
+- Register with missing fields
+- Register with an existing email
+- Login with valid credentials
+- Login with incorrect credentials
+- Get all jobs
+- Get job by ID
+- Apply for a job with a PDF resume
+- Apply without a resume
+- Apply for the same job twice
+- View my applications
+- Upload a non-PDF resume
+- Upload a resume larger than 2 MB
