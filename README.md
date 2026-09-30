@@ -44,6 +44,10 @@ For production:
 
 The server runs on `http://localhost:5000`.
 
+## Live API
+
+https://potenz-job-application-api.onrender.com
+
 ## API Endpoints
 
 ### Authentication
